@@ -5,12 +5,22 @@ function main() {
 
 	var args = process.argv.slice(2);
 
+	if (args.length === 0) {
+		printHelp();
+		// printUsage();
+		return;
+	}
+
 	var appendString = '';
 
 	args.forEach(function(val, index, array) {
 		appendString = appendString.concat(val);
 	});
 
+	if (appendString.trim() === "--help") {
+		printUsage();
+		return;
+	}
 	console.log('About to parse string: ' + appendString);
 
 	try {
@@ -22,6 +32,14 @@ function main() {
 	}
 }
 
+function printHelp() {
+	console.log("use: --help to get usage instructions");
+}
+
+function printUsage() {
+	console.log("usage: [sorted array 1] [sorted array 2]");
+	console.log("eg: [1, 2, 4, 6] [3, 4, 5, 7]");	
+}
 
 function createArrays(passedString) {
 	let arrayOfArrays = [];

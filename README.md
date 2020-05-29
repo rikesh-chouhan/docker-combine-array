@@ -1,6 +1,6 @@
-##### Docker array combiner example.
+#### Docker array combiner example.
 
-##### Requirements
-Install Nodejs
-via Download - https://nodejs.org/en/download/
-via Package Manager - https://nodejs.org/en/download/package-manager/
+#### Build Requirements
+##### Install Nodejs<br>
+Using download - https://nodejs.org/en/download/<br>
+Using Package Manager - https://nodejs.org/en/download/package-manager/<br>

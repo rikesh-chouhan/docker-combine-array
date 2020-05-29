@@ -1,0 +1,29 @@
+{
+  "name": "js-samples",
+  "version": "1.0.0",
+  "description": "single javascript application",
+  "main": "bin/input_args.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikesh-chouhan/docker-combine-array.git"
+  },
+  "keywords": [
+    "combine",
+    "sorted",
+    "arrays",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Rikesh Chouhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikesh-chouhan/docker-combine-array/issues"
+  },
+  "homepage": "https://github.com/rikesh-chouhan/docker-combine-array#README.md",
+  "bin": {
+    "combine-array": "./bin/input_args.js"
+  }
+}
