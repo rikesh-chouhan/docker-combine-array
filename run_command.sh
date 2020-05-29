@@ -1,1 +1,1 @@
-node input_args.js "$@"
+node bin/input_args.js "$@"
